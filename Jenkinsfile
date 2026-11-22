@@ -20,7 +20,7 @@ pipeline {
         stage('Validate') {
             steps {
                 sh '''
-                    if [ ! -s app/index.html ]; then
+                    if [ ! -s app/indexx.html ]; then
                         echo "ERROR: app/index.html is missing or empty"
                         exit 1
                     fi
